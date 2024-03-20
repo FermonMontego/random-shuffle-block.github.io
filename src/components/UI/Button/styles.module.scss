@@ -1,0 +1,14 @@
+.uiButton {
+  outline: none;
+  border: 1px solid #202020;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+
+  background: transparent;
+  color: #202020;
+
+  &:hover {
+    box-shadow: 0 0 0 3px rgba(32, 32, 32, 0.25);
+  }
+}

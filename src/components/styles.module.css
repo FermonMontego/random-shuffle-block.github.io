@@ -1,0 +1,31 @@
+.fadeIn {
+    transform: scale(0);
+    transition: .25s ease-in-out all;
+    animation: fade ease-in-out forwards .2s .2s;
+}
+
+.blockItem {
+    border: 1px solid #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    flex-direction: column;
+    gap: 12px;
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@keyframes fade {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

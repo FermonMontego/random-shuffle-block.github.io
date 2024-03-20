@@ -1,0 +1,10 @@
+.uiInput {
+  border: 1px solid #202020;
+  border-radius: 8px 0 0 8px;
+  padding: 8px 12px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(32, 32, 32, 0.25);
+  }
+}
